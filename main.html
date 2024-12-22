@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        td:first-child, td:last-child {
+            width: 200px;
+        }
+        td:nth-child(2) {
+            width: 600px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>Architectural Information</h1>
+    </header>
 
+    <div class="imageContainer">
+        <img src="https://via.placeholder.com/1100x300" alt="Architectural Overview">
+    </div>
+
+    <table>
+        <tr>
+            <td><img src="https://via.placeholder.com/200" alt="Building 1"></td>
+            <td>Architectural designs are a blend of functionality and aesthetics, incorporating innovative materials and modern techniques to create iconic structures.</td>
+            <td><img src="https://via.placeholder.com/200" alt="Building 2"></td>
+        </tr>
+        <tr>
+            <td><img src="https://via.placeholder.com/200" alt="Building 3"></td>
+            <td>Urban planning and sustainable architecture are key aspects of modern design, ensuring minimal environmental impact while maximizing usability.</td>
+            <td><img src="https://via.placeholder.com/200" alt="Building 4"></td>
+        </tr>
+    </table>
 </body>
-
 </html>
+
